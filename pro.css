@@ -16,15 +16,15 @@ html {
 }
 
 body {
-    font-family: sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    cursor: auto !important;
-  }
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: auto !important;
+}
 
 header nav {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   margin: 12px 50px;
 }
@@ -54,8 +54,8 @@ header nav {
   max-width: 531px;
 }
 
-#lmaster .left-section .heading{
-  font-size: 50px;
+#master .left-section .heading {
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -91,5 +91,15 @@ header nav {
 }
 
 .sideimage {
-  margin: 20px
+  margin: 20px;
+}
+
+.navbar a:hover {
+  transition: all o.5sc ease;
+  color:dodgerblue;
+}
+
+#master .left-section .input-container .btn {
+  transition: o.5sc ease;
+  color: dodgerblue;
 }
