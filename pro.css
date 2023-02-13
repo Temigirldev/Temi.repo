@@ -95,11 +95,7 @@ header nav {
 }
 
 .navbar a:hover {
-  transition: all o.5sc ease;
+  transition: all 0.5sc ease;
   color:dodgerblue;
 }
 
-#master .left-section .input-container .btn {
-  transition: o.5sc ease;
-  color: dodgerblue;
-}
