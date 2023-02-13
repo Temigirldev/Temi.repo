@@ -21,77 +21,75 @@ body {
     -moz-osx-font-smoothing: grayscale;
     cursor: auto !important;
   }
-  header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 120px;
-  
-  }
 
-  .navbar {
-    display: flex;;
-    list-style: none ;
-  }
-
-  .navbar a {
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-    font-weight: 600;
-    padding: 10px 15px;
-  }
-  
-
-  .navbar a:hover {
-    color: blue;
-    transition: 0.2sc;
-  } 
-
-  section {
-    display: flex;
-    width: 100%;
-  }
-  .left-section {
-    font-size: 20px;
-   margin-top: 100px;
-    padding: 20px;
-  }
-
-.sideimage img{
-    max-width: 530px;
-    padding: 30px;
+header nav {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 12px 50px;
 }
 
-.heading {
-    font-size: 46px;
-    font-weight: 700;
-    margin-bottom: 20px;
+.navbar {
+  display: flex;
+  gap: 100px;
 }
 
-.paragraph {
-    margin-bottom: 50px;
+.vybe {
+  margin-right: 400px;
 }
 
-.input-container {
-    width: fit-content;
-    height: 50px;
-    border: 1px solid #6a6d6e;
-    border-radius: 5px;
-    display: flex;
+.navbar a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+#master {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 
-.btn {
-    border-radius: 3px;
-    background: #000000;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 700;
-    width: 150px;
+#master .left-section {
+  max-width: 531px;
 }
 
-.btn:hover{
-    transition: 0.3sc;
-    color: blue;
+#lmaster .left-section .heading{
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#master .left-section .paragraph {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.master .left-section .input-container {
+  display: flex;
+  width: fit-content;
+  height: 50px;
+  border: 1px solid #6a6d6e;
+  border-radius: 5px;
+}
+
+#master .left-section .input-container .input {
+  border-radius: 5px;
+  width: 260px;
+  padding: 0px 20px;
+  height: 30px;
+}
+
+#master .left-section .input-container .btn {
+  border-radius: 5px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  width: 150px;
+  height: 30px;
+}
+
+.sideimage {
+  margin: 20px
 }
