@@ -22,47 +22,78 @@ body {
   cursor: auto !important;
 }
 
-header nav {
+header {
+  background: white;
+  padding: 0px 20px;
+  margin-bottom: 45px;
+}
+
+header .navbar {
   display: flex;
-  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  margin: 12px 50px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.navbar {
+#brand {
   display: flex;
-  gap: 100px;
+  height: 30px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.vybe {
-  margin-right: 400px;
+#menu {
+  color: black;
+  display: none;
 }
 
-.navbar a {
+header .navbar .navlist {
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  gap: 45px;
+  list-style: none;
+}
+
+header .navbar .navlist a {
+  color: black;
   text-decoration: none;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 700;
 }
+
 #master {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 100px;
+  padding: 0px 24px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
 }
 
 #master .left-section {
   max-width: 531px;
+
 }
 
 #master .left-section .heading {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 800; 
   margin-bottom: 20px;
 }
 
 #master .left-section .paragraph {
   margin-bottom: 50px;
-  margin-top: 20px;
 }
 
 .master .left-section .input-container {
@@ -73,11 +104,13 @@ header nav {
   border-radius: 5px;
 }
 
+
 #master .left-section .input-container .input {
   border-radius: 5px;
   width: 260px;
-  padding: 0px 20px;
-  height: 30px;
+  font-size: 16px;
+  padding: 10px 20px 10px;
+  outline: none;
 }
 
 #master .left-section .input-container .btn {
@@ -87,15 +120,75 @@ header nav {
   font-size: 16px;
   font-weight: 700;
   width: 150px;
-  height: 30px;
+  padding: 10px 20px 10px;
 }
 
-.sideimage {
-  margin: 20px;
+.sideimage img {
+ max-width: 100%;
 }
 
-.navbar a:hover {
-  transition: all 0.5sc ease;
-  color:dodgerblue;
+@media (max-width: 991.98px) {
+  #menu {
+    display: flex;
+  }
+  header .navbar .navlist {
+    display:none;
+  }
+
+  header .navbar.open .navlist {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:yellow;
+    height: 100vh;
+    padding: 20px;  
+    margin: 0rem -16px;
+  }
+
+  header nav.open .navlist a {
+    font-size: 40px;
+    color: black;
+  }
+  #master {
+    padding: 0rem 1rem;
+    flex-direction: column;
+    gap: 40px;
+  }
+  #master .left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #master .left-section .heading {
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+  }
+  #master .left-section .paragraph {
+    text-align: center;
+    line-height: 28px;
+  }
+  #master .left-section .input-container {
+    height: 40px;
+  }
+  #master .left-section .input-container .input {
+    width: fit-content;
+  }
+  #master .left-section .input-container .btn { 
+    width: fit-content;
+    font-size: 14px;
+  }
 }
 
+@media (max-width: 767.98px) {
+  #master .left-section .input-container .btn {
+    font-size: 12px;
+}
+  
+
+}

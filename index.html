@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="pro.css" />
 
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
-
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <nav>
-          <img class="vybe" src="Logo.png" />
+    
+      <header>           
+        <nav class="navbar">
 
-          <div class="navbar">
-            <a href="#">Savings</a>
-            <a href="#">DigitalBanking</a>
-            <a href="#">FAQS</a>
-          </div> 
+          <img src="Logo.png" id="brand" >
+
+        <div class="bx bx-menu" id="menu"></div>
+
+        <div class="navlist">
+          <li><a href="">Savings</a></li>
+          <li><a href="">DigitalBankng</a></li>
+          <li><a href="">FAQS</a></li>
+        </div>
         </nav>
       </header>
 
@@ -51,6 +54,15 @@
           <img src="boyandgirl.png" />
         </div>
       </section>
-    </div>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const toggle = document.querySelector("menu");
+          const nav = document.querySelector(".navbar");
+  
+          toggle.addEventListener("click", () => {
+            nav.classList.toggle("open");
+          });
+        });
+      </script>
   </body>
 </html>
