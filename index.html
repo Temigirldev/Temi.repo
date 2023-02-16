@@ -5,18 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="pro.css" />
-    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
       <nav class="navbar">
         <img src="Logo.png" id="brand" />
 
-        <a href="#" class="toggle-button">
+        <div class="togglebutton">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
-        </a>
+        </div>
 
         <div class="navlist">
             <li><a href="/">Savings</a></li>
@@ -48,5 +47,16 @@
         <img src="boyandgirl.png" />
       </div>
     </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const togglebutton = document.querySelector(".togglebutton");
+        const navbar = document.querySelector(".navbar");
+
+        togglebutton.addEventListener("click", () => {
+          navbar.classList.toggle("open");
+        });
+      });
+    </script>
+
   </body>
 </html>
