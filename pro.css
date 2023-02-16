@@ -88,6 +88,7 @@ header .navbar li {
   text-decoration: none;
   
 }
+
 #master {
   display: flex;
   align-items: center;
@@ -151,7 +152,7 @@ header .navbar li {
 
   header .navbar .navlist {
      display: none;
-    width: 100%;
+    width: 75%;
   }
 
   header .navbar {
@@ -159,16 +160,16 @@ header .navbar li {
     align-items: flex-start;
   }
   header .navbar.open .navlist {
-    width: 100%;
+    width: 75%;
     flex-direction: column;
     background-color: rgb(112, 180, 249);
     height: 50vh;
-    padding: 20px;
+    padding: 60px;
     display: flex;
   }
 
   header .navbar.open .navlist a {
-    margin: 30px;
+    margin: 50px;
     font-size: 25px;
     color: #000000;
   }
