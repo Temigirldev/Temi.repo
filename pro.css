@@ -1,5 +1,4 @@
-*,
-*::before,
+* *::before,
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -74,7 +73,6 @@ header .navbar .navlist {
   -ms-flex-align: center;
   gap: 45px;
   list-style: none;
-  
 }
 
 header .navbar .navlist a {
@@ -83,10 +81,8 @@ header .navbar .navlist a {
   font-weight: 700;
 }
 
-
 header .navbar li {
   text-decoration: none;
-  
 }
 
 #master {
@@ -147,13 +143,367 @@ header .navbar li {
   max-width: 100%;
 }
 
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 0px 24px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+}
+
+#app .up {
+  max-width: 531px;
+}
+#app .up .heading2 {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+#app .up .subheading {
+  font-size: 15px;
+}
+
+#app .up .picture {
+  margin-top: 50px;
+  max-width: 105%;
+}
+
+#app .description {
+  margin-top: -100px;
+}
+#app .description .boss {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+#app .img-text {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+#app .img-text .one {
+  font-weight: 700;
+}
+
+#app .img-text .two {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+#app .img-text2 {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+#app .img-text2 .three {
+  font-weight: 700;
+}
+#app .img-text2 .four {
+  margin-top: 12px;
+  font-size: 12px;
+}
+#app .img-text3 {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+#app .img-text3 .five {
+  font-weight: 700;
+}
+#app .img-text3 .six {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+#app .img-text4 {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+#app .img-text4 .seven {
+  font-weight: 700;
+}
+#app .img-text4 .eight {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+#scroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 105px;
+  padding: 0px 24px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+}
+
+#scroll .start {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+#scroll .phase1 {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+#scroll .min1 .nine {
+  font-weight: 700;
+}
+
+#scroll .min1 .ten {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+#scroll .phase2 {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+#scroll .min2 .eleven {
+  font-weight: 700;
+}
+
+#scroll .min2 .twelve {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+#scroll .phase3 {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+#scroll .min3 .thirteen {
+  font-weight: 700;
+}
+#scroll .min3 .fourteen {
+  margin-top: 12px;
+  font-size: 12px;
+}
+#read .container {
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+}
+
+#read .container h1 {
+  margin-bottom: 18px;
+  font-size: 36px;
+  font-weight: 700;
+  max-width: 581%;
+}
+
+#read .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row .account img {
+  margin-bottom: 10px;
+}
+
+.row .account h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.row .account p {
+  font-size: 15px;
+}
+
+.row .service img {
+  margin-bottom: 10px;
+}
+
+.row .service h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.row .service p {
+  font-size: 15px;
+}
+
+.row .money img {
+  margin-bottom: 10px;
+}
+.row .money h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.row .money p {
+  font-size: 15px;
+}
+
+#vybecash-community {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 95px;
+  padding: 0px 24px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  background-color: rgb(234, 242, 246);
+}
+
+.firstpart img {
+  max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#vybecash-community .secondpart {
+  max-width: 531px;
+}
+#vybecash-community .secondpart .head {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+#vybecash-community .secondpart .pg {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+#vybecash-community .secondpart .fill {
+  display: flex;
+  width: fit-content;
+  height: 50px;
+  border: 1px solid #6a6d6e;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#vybecash-community .secondpart .fill .input {
+ 
+  width: 260px;
+  font-size: 16px;
+  padding: 10px 15px 10px;
+  outline: none;
+}
+#vybecash-community .secondpart .fill .btn {
+  border-radius: 0px 0px 5px;
+  position: relative;
+  background: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  width: 150px;
+  padding: 10px 15px 10px;
+}
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+
+}
+footer .containbox {
+  display: flex;
+  gap: 20px;
+  padding: 0px 24px;
+  margin: 20px;
+}
+
+.about {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+.about img {
+  margin-bottom: 20px;
+}
+.logo {
+  flex-grow: 1;
+  flex-basis: 70%;
+}
+.Products {
+  flex-grow: 1;
+  flex-basis: 70%;
+}
+.policy {
+  flex-grow: 1;
+  flex-basis: 70%;
+}
+.touch {
+  flex-grow: 1;
+  flex-basis: 70%;
+}
+.containbox h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.copyright {
+  padding: 15px 0;
+  text-align: center;
+  border-top: 1px solid white;
+}
+.contact h3 {
+  margin-bottom: 10px;
+}
+
+.logo ul {
+  list-style: none;
+  line-height: 2;
+}
+
+.Products ul {
+  list-style: none;
+  line-height: 2;
+}
+
+.policy ul {
+  list-style: none;
+  line-height: 2;
+}
+
+.logo a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.Products a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.policy a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
 @media (max-width: 991.98px) {
- header .togglebutton {
+  header .togglebutton {
     display: flex;
   }
 
   header .navbar .navlist {
-     display: none;
+    display: none;
     width: 75%;
   }
 
@@ -179,7 +529,7 @@ header .navbar li {
   #master {
     padding: 0rem 1rem;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
   }
   #master .left-section {
     display: flex;
@@ -199,19 +549,149 @@ header .navbar li {
 
   #master .left-section .input-container {
     height: 40px;
+    text-align: center;
+    margin-top: -30px;
   }
   #master .left-section .input-container .input {
     width: fit-content;
+    margin-bottom: 8px;
   }
 
   #master .left-section .input-container .btn {
     width: fit-content;
-    font-size: 14px;
   }
 }
- 
+
 @media (max-width: 767.98px) {
   #master .left-section .input-container .btn {
-    font-size: 12px;
+    font-size: 10px;
+  }
+
+  .sideimage {
+    margin-top: 10px;
+  }
+
+  #master .left-section .input-container .input {
+    font-size: 10px;
   }
 }
+@media (max-width: 991.98px) {
+  #app {
+    padding: 0rem 1rem;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #app .up .heading2 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 50px;
+  }
+  #app .up .subheading {
+    text-align: center;
+    line-height: 20px;
+  }
+  #app .description {
+    margin-top: 20px;
+    align-content: center;
+  }
+  #app .description .boss {
+    text-align: center;
+  }
+  #app .description .order {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #app .up .picture {
+    max-width: 100%;
+  }
+}
+@media (max-width: 991.98px) {
+  #scroll {
+    padding: 0rem 1rem;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 767.98px) {
+  #scroll .bluephone .picture2 {
+    max-width: 100%;
+  }
+
+  #scroll .start {
+    text-align: center;
+  }
+
+  #scroll .go {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .container p {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+@media (max-width: 991.98px) {
+  #vybecash-community {
+    padding: 0rem 1rem;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #vybecash-community .secondpart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #vybecash-community .secondpart .head {
+    text-align: center;
+    font-size: 28px;
+    line-height: 40px;
+  }
+  #vybecash-community .secondpart .pg {
+    text-align: center;
+    line-height: 20px;
+  }
+  #vybecash-community .secondpart .fill {
+    text-align: center;
+    height: 40px;
+    width: fit-content;
+  }
+  #vybecash-community .secondpart .fill .input {
+    width: fit-content;
+    
+  }
+  #vybecash-community .secondpart .fill .btn {
+    width: fit-content;
+  }
+}
+@media (max-width: 767.98px) {
+
+  #vybecash-community .secondpart .fill .btn{
+    font-size: 10px;
+    
+  }
+  #vybecash-community .secondpart .fill .input{
+    font-size: 10px;
+    
+  }
+}
+
+  
+@media (max-width: 991.98px) {
+  .containbox {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+
